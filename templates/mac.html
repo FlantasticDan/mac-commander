@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>MAC Commander</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="/static/main.css"> -->
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <h3>MAC Address</h3>
+            <h1>{{mac}}</h1>
+        </div>
+
+        <div class="item">
+            <h4>Last Ping</h4>
+            <h2>{{timestamp}}</h2>
+        </div>
+
+        <div class="item">
+            <h4>Public IP</h4>
+            <h2>{{public}}</h2>
+        </div>
+
+        <div class="item">
+            <h4>Local IP</h4>
+            <h2>{{local}}</h2>
+        </div>
+
+        <script src="https://unpkg.com/dayjs@1.10.6/dayjs.min.js"></script>
+        <script src="https://unpkg.com/dayjs@1.10.6/plugin/relativeTime.js"></script>
+        <!-- <script src=""></script> -->
+
+    </body>
+
+</html>
